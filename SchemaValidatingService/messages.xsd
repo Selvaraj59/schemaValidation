@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="http://SchemaValidation" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://SchemaValidation">
+  <xs:element name="Vanakkam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="call" nillable="true" type="tns:Call"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Call">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="text" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Call" nillable="true" type="tns:Call"/>
+  <xs:element name="VanakkamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VanakkamResult" nillable="true" type="tns:CallResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="CallResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="text" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CallResponse" nillable="true" type="tns:CallResponse"/>
+</xs:schema>
