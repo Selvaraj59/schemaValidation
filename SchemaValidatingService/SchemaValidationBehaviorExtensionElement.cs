@@ -26,7 +26,7 @@ namespace SchemaValidatingService
         protected override object CreateBehavior()
         {
             XmlSchemaSet schemaSet = new XmlSchemaSet();
-			schemaSet.Add("http://SchemaValidation", "messages.xsd");
+			//schemaSet.Add("http://SchemaValidation", "messages.xsd");
 
             return new SchemaValidationBehavior(schemaSet);
         }
