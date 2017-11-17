@@ -60,7 +60,7 @@ namespace SchemaValidatingService
 
             XmlDocument xmlFactory = new XmlDocument();
             XmlElement responseBodyElement = xmlFactory.CreateElement("VanakkamResponse", ns);
-            XmlElement responseContentElement = xmlFactory.CreateElement("VanakkamResultX", ns); // <--
+            XmlElement responseContentElement = xmlFactory.CreateElement("VanakkamResultX", ns);
             XmlElement responseParameterElement = xmlFactory.CreateElement("text", ns);
             responseParameterElement.InnerText = "Vanakkam TestClient!";
             responseContentElement.AppendChild(responseParameterElement);

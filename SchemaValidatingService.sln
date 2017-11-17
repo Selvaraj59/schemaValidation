@@ -3,16 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaValidatingService", "SchemaValidatingService\SchemaValidatingService.csproj", "{6C58C042-8745-434E-9387-1F51420DBD02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBehavior", "CustomBehavior\CustomBehavior.csproj", "{D2F1048D-1AE0-455D-98B6-BE09429E7581}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6C58C042-8745-434E-9387-1F51420DBD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C58C042-8745-434E-9387-1F51420DBD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C58C042-8745-434E-9387-1F51420DBD02}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6C58C042-8745-434E-9387-1F51420DBD02}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6C58C042-8745-434E-9387-1F51420DBD02}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{6C58C042-8745-434E-9387-1F51420DBD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C58C042-8745-434E-9387-1F51420DBD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C58C042-8745-434E-9387-1F51420DBD02}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6C58C042-8745-434E-9387-1F51420DBD02}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6C58C042-8745-434E-9387-1F51420DBD02}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D2F1048D-1AE0-455D-98B6-BE09429E7581}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
